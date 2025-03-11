@@ -254,7 +254,7 @@ const Contact = () => {
   const [isAdmin, setIsAdmin] = useState(false);
   const [showAdminModal, setShowAdminModal] = useState(false);
   const [adminPassword, setAdminPassword] = useState('');
-  const ADMIN_PASSWORD = 'rafacharlokali2';
+  const ADMIN_PASSWORD = 'juancarlos123';
 
   const [reviews, setReviews] = useState<Review[]>(() => {
     const savedReviews = localStorage.getItem('portfolio_reviews');
